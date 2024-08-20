@@ -9,7 +9,7 @@ peso = int(peso)
 altura = input('Sua altura é?: ')
 altura = int(altura)
 
-print('Seu nome é',nome,',sua idade é',idade,',seu peso é',peso,'e sua altura é', altura)
+print(f'Seu nome é {nome},sua idade é {idade},seu peso é {peso} e sua altura é {altura}')
 
 print(type(nome))
 print(type(idade))

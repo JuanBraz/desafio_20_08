@@ -1,7 +1,7 @@
 nome = input('Seu nome é?: ')
 idade = int(input('Sua idade é?: '))
 
-print('Seu nome é',nome,'e sua idade é',idade)
+print(f'Seu nome é {nome} e sua idade é {idade}')
 
 num1 = int(input(' Digite o primeiro número:'))
 num2 = int(input(' Digite o segundo número:'))
